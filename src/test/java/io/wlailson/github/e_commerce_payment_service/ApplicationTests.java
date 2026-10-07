@@ -1,15 +1,21 @@
 package io.wlailson.github.e_commerce_payment_service;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Nested;
+import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.Import;
 
 @Import(TestcontainersConfiguration.class)
 @SpringBootTest
-class ECommercePaymentServiceApplicationTests {
+class ApplicationTests {
 
-	@Test
-	void contextLoads() {
+	@Nested
+	class ApplicationContext {
+
+		@Test
+		void startsWithTestContainers() {
+		}
 	}
 
 }
