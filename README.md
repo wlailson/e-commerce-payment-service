@@ -12,6 +12,10 @@ Serviço responsável por registrar e consultar pagamentos associados aos pedido
 - springdoc-openapi / Swagger UI.
 - Testes com JUnit Jupiter, Mockito e Testcontainers para PostgreSQL e Kafka.
 
+## Swagger
+
+[📚 Acessar Swagger](https://wlailson.github.io/e-commerce-payment-service/)
+
 ## Executar localmente
 
 Pré-requisitos: JDK 25, PostgreSQL e Kafka acessíveis. O perfil de desenvolvimento é ativado por padrão; confira `src/main/resources/application-dev.yaml` para os parâmetros locais do banco.
